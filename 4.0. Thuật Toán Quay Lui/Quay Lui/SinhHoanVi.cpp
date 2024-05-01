@@ -53,7 +53,7 @@ int main()
 {
     int n, x[100];
     cin >> n;
-    TRY1(x, 1, n);
+    // TRY1(x, 1, n);
     TRY2(x, 1, n);
     return 0;
 }

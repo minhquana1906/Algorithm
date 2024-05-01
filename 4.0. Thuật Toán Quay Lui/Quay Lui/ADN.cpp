@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int n;
+int n, d = 0;
+vector<string> ans;
 string a, b;
 
 void TRY(string x, int k)
@@ -9,7 +10,8 @@ void TRY(string x, int k)
 
     if (k == n)
     {
-        cout << x << "\n";
+        d++;
+        ans.push_back(x);
     }
     else
     {
@@ -34,4 +36,7 @@ int main()
     }
 
     TRY("", 0);
+    cout << d << endl;
+    for (string &x : ans)
+        cout << x << endl;
 }
