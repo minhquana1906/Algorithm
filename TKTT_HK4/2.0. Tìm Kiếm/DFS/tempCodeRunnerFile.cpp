@@ -1,0 +1,1 @@
+max_element(g + 1, g + k + 1) << " thanh vien.";
